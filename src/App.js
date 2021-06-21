@@ -32,7 +32,11 @@ function App() {
   return (
     <div className="coin-app">
       <div className="coin-search">
-        <div className="coin-text">Serach a currency</div>
+        
+        <div className="coin-text">
+        <p id="heading">Crypto Currency Price Tracker</p><br/>
+        Serach a currency
+        </div>
           <form>
             <input type="text" placeholder="Search" className="coin-input" onChange={(event)=>setSerach(event.target.value)}></input>
           </form>
